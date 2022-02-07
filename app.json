@@ -1,12 +1,10 @@
 {
-  "name": "Start on Heroku: Go",
-  "description": "Go Getting Started Example App",
+  "name": "v2hk-refresh",
+  "description": "v2hk-refresh",
   "keywords": [
-    "getting-started",
     "go",
-    "sample",
-    "example"
+    "v2"
   ],
-  "website": "http://github.com/heroku/go-getting-started",
-  "repository": "http://github.com/heroku/go-getting-started"
+  "website": "https://github.com/fangkehou-team/v2hk-refresh",
+  "repository": "https://github.com/fangkehou-team/v2hk-refresh"
 }
