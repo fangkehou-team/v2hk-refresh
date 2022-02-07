@@ -32,7 +32,7 @@ ___服务器端VMESS配置参考如下：___
 
 ```json
 {
-  "inbound": {
+  "inbounds": [{
     "port": "env:PORT",
     "protocol": "vmess",
     "settings": {
@@ -49,11 +49,10 @@ ___服务器端VMESS配置参考如下：___
         "path": "/"
       }
     }
-  },
-  "outbound": {
-    "protocol": "freedom",
-    "settings": {}
-  }
+  }],
+  "outbounds": [{
+        "protocol": "freedom"
+    }]
 }
 ```
 

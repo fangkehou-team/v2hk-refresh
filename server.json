@@ -1,5 +1,5 @@
 {
-  "inbound": {
+  "inbounds": [{
     "port": "env:PORT",
     "protocol": "vmess",
     "settings": {
@@ -11,11 +11,13 @@
       ]
     },
     "streamSettings": {
-      "network":"ws"
+      "network":"ws",
+      "wsSettings": {
+        "path": "/"
+      }
     }
-  },
-  "outbound": {
-    "protocol": "freedom",
-    "settings": {}
-  }
+  }],
+  "outbounds": [{
+        "protocol": "freedom"
+    }]
 }
