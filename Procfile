@@ -1,1 +1,1 @@
-web: bin/go-getting-started
+web: v2hk-refresh -config server.json
